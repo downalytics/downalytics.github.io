@@ -11,7 +11,7 @@ export default function App() {
     <div className="min-h-screen flex flex-col bg-slate-50">
       <Menu />
       <Hero />
-      <main className="flex-1 w-full max-w-4xl mx-auto px-4 py-8">
+      <main className="flex-1 w-full max-w-[80rem] mx-auto px-2 sm:px-6 py-8">
         <About />
         <ScreenshotsGallery />
         <section id="tiers" className="mt-16">
