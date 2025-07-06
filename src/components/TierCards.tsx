@@ -22,10 +22,10 @@ const tiers = [
 	{
 		name: "Pro",
 		description:
-			"Advanced analytics and more domains/projects. Perfect for teams and power users.",
+			"More projects, custom domains, and advanced analytics for serious developers.",
 		features: [
-			"Up to 10 projects",
-			"Up to 3 custom domains",
+			"Up to 5 projects",
+			"Up to 2 custom domains",
 			"Advanced analytics & reporting",
 			"Webhook notifications",
 			"Priority support",
@@ -38,11 +38,11 @@ const tiers = [
 		highlight: false,
 	},
 	{
-		name: "Enterprise",
-		description: "Custom solutions for organizations with advanced needs.",
+		name: "Teams",
+		description: "Multi-project support with custom domains and dedicated infrastructure.",
 		features: [
-			"Up to 50 projects",
-			"Up to 20 custom domains",
+			"Up to 15 projects",
+			"Up to 5 custom domains",
 			"Custom integrations",
 			"SLA & support",
 			"Dedicated infrastructure",
