@@ -5,9 +5,8 @@ const tiers = [
 	name: "🆓 Free",
 	description: "Perfect for open source and testing",
 	features: [
-	  "1 project",
-	  "No custom domains",
-	  "Use your xyz.downalytics.dev subdomain",
+	  "✅ 1 project",
+	  "Dedicated xyz.redirector.downalytics.dev subdomain",
 	  "Basic download analytics",
 	  "→ Ideal for OSS maintainers and solo devs",
 	],
@@ -19,10 +18,10 @@ const tiers = [
 	highlight: true,
   },
   {
-	name: "💡 Starter — $5/mo",
+	name: "💡 Starter — £5/mo",
 	description: "For solo projects that need a custom domain",
 	features: [
-	  "1 project",
+	  "✅ 1 project",
 	  "✅ 1 custom domain",
 	  "Full analytics & GitHub integration",
 	  "Custom download URLs like get.yourdomain.com",
@@ -36,13 +35,13 @@ const tiers = [
 	highlight: false,
   },
   {
-	name: "🚀 Pro — $9/mo",
+	name: "🚀 Pro — £9/mo",
 	description: "More projects, more flexibility",
 	features: [
-	  "Up to 5 projects",
+	  "✅ Up to 5 projects",
 	  "✅ 2 custom domains",
 	  "Priority analytics sync",
-	  "Ideal for devs managing multiple tools or clients",
+	  "→ Ideal for devs managing multiple tools or clients",
 	],
 	cta: {
 	  label: "Go Pro",
@@ -52,10 +51,10 @@ const tiers = [
 	highlight: false,
   },
   {
-	name: "🧑‍💼 Team — $25/mo",
+	name: "🧑‍💼 Team — £25/mo",
 	description: "Built for startups and teams",
 	features: [
-	  "Up to 15 projects",
+	  "✅ Up to 15 projects",
 	  "✅ 5 custom domains",
 	  "API access (coming soon)",
 	  "Multi-user/team support (coming soon)",

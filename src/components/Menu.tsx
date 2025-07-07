@@ -8,11 +8,21 @@ export function Menu() {
           <img src="/logo.png" alt="Downalytics Logo" className="w-8 h-8" />
           <span className="font-bold text-lg text-primary">Downalytics</span>
         </div>
-        <ul className="flex gap-6 text-slate-700 font-medium">
-          <li><a href="#about" className="hover:text-accent transition">About</a></li>
-          <li><a href="#tiers" className="hover:text-accent transition">Tiers</a></li>
-          <li><a href="#analytics" className="hover:text-accent transition">Analytics</a></li>
-        </ul>
+        <div className="flex items-center gap-6">
+          <ul className="flex gap-6 text-slate-700 font-medium">
+            <li><a href="#about" className="hover:text-accent transition">About</a></li>
+            <li><a href="#tiers" className="hover:text-accent transition">Tiers</a></li>
+            <li><a href="#faq" className="hover:text-accent transition">FAQ</a></li>
+          </ul>
+          <a
+            href="https://dashboard.downalytics.dev"
+            className="ml-4 bg-accent text-white font-semibold px-4 py-2 rounded shadow hover:bg-sky-500 transition whitespace-nowrap"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Dashboard
+          </a>
+        </div>
       </nav>
     </header>
   );

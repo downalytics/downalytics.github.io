@@ -47,7 +47,7 @@ export function ScreenshotsGallery() {
           onClick={() => setModal(null)}
         >
           <div
-            className="relative bg-white rounded-2xl shadow-2xl max-w-6xl w-full mx-4 flex flex-col items-center"
+            className="relative bg-white rounded-2xl shadow-2xl max-w-6xl w-full mx-4 flex flex-col items-center animate-fadein"
             onClick={e => e.stopPropagation()}
           >
             <button

@@ -2,7 +2,8 @@ import React from "react";
 import { Hero } from "./components/Hero";
 import { ScreenshotsGallery } from "./components/ScreenshotsGallery";
 import { TierCards } from "./components/TierCards";
-import { AnalyticsInfo } from "./components/AnalyticsInfo";
+// import { AnalyticsInfo } from "./components/AnalyticsInfo";
+import { FAQ } from "./components/FAQ";
 import { About } from "./components/About";
 import { Menu } from "./components/Menu";
 
@@ -18,9 +19,8 @@ export default function App() {
           <h2 className="text-2xl font-bold mb-6 text-slate-800">Tiers</h2>
           <TierCards />
         </section>
-        <section id="analytics" className="mt-16">
-          <h2 className="text-2xl font-bold mb-6 text-slate-800">What We Track</h2>
-          <AnalyticsInfo />
+        <section id="faq" className="mt-16">
+        <FAQ />
         </section>
       </main>
       <footer className="text-center text-slate-400 py-8 text-sm">
