@@ -11,6 +11,7 @@ export function Menu() {
         <div className="flex items-center gap-6">
           <ul className="flex gap-6 text-slate-700 font-medium">
             <li><a href="#about" className="hover:text-accent transition">About</a></li>
+            <li><a href="#features" className="hover:text-accent transition">Features</a></li>
             <li><a href="#tiers" className="hover:text-accent transition">Tiers</a></li>
             <li><a href="#faq" className="hover:text-accent transition">FAQ</a></li>
           </ul>
