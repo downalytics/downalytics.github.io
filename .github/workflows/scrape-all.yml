@@ -1,0 +1,16 @@
+name: Scrape All Projects
+
+on:
+  schedule:
+    - cron: '0 */11 * * *'
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Run scrape-all API
+        run: |
+          curl -XPOST -H "Authorization: Bearer ${{ secrets.SERVICE_TOKEN }}" https://dashboard.downalytics.dev/api/admin/scrape-all
