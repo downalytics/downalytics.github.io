@@ -5,7 +5,7 @@ import { TierCards } from "./components/TierCards";
 // import { AnalyticsInfo } from "./components/AnalyticsInfo";
 import { FAQ } from "./components/FAQ";
 import { CustomDomainDetails } from "./components/CustomDomainDetails";
-import { About } from "./components/About";
+
 import { Menu } from "./components/Menu";
 
 export default function App() {
@@ -14,7 +14,7 @@ export default function App() {
       <Menu />
       <Hero />
       <main className="flex-1 w-full max-w-[80rem] mx-auto px-2 sm:px-6 py-8">
-        <About />
+
         <ScreenshotsGallery />
         <CustomDomainDetails />
         <section id="tiers" className="mt-16">

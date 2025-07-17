@@ -9,18 +9,25 @@ export function CustomDomainDetails() {
     <section id="features" className="mt-16">
       <h2 className="text-2xl font-bold mb-6 text-slate-800 text-center">Features</h2>
 
-{/* Project Management & Release Discovery */}
+      {/* Project Management & Release Discovery */}
       <div className="bg-white rounded-xl shadow p-6 flex flex-col md:flex-row gap-4 mb-10 items-center">
         <div className="flex-1">
           <h3 className="text-lg font-semibold mb-2 text-primary text-center md:text-left">Project Management & Release Discovery</h3>
           <ul className="list-disc pl-5 text-slate-700 space-y-2">
             <li>Add a project by entering your GitHub repository (e.g. <span className="font-mono">user/repo</span>).</li>
-            <li>Downalytics will then discover all releases for that project and let you track downloads.</li>
+            <li>Choose your analytics mode:
+              <ul className="list-disc pl-5 mt-2 space-y-1">
+                <li><span className="font-semibold text-primary">Proxy Mode</span> (Full): Real-time analytics, country/city breakdown, and instant download tracking. Recommended for full insights. Requires using Downalytics download URLs.</li>
+                <li><span className="font-semibold text-primary">Scrape Mode</span> (Lite): Daily download counts are scraped from GitHub and built into a time series. Analytics are available up to the previous day. Country/city information is not available. No need to change your download URLs.</li>
+              </ul>
+            </li>
+            <li>Downalytics will discover all releases for your project and let you track downloads in either mode.</li>
             <li>See all your tracked projects and their analytics in one place.</li>
             <li>Switch between projects and domains seamlessly.</li>
             <li>Bulk import and search for repositories.</li>
             <li>Project health and status indicators.</li>
           </ul>
+          <div className="text-xs text-slate-500 mt-2">Note: Scrape mode is ideal for quick setup and historical stats, but proxy mode unlocks full analytics and location data.</div>
         </div>
         <div className="flex-shrink-0 w-full md:w-[380px] flex items-center justify-center">
           <button
